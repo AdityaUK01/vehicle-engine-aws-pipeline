@@ -56,5 +56,5 @@ Amazon Athena (SQL analytics)
 - [x] S3 bronze/silver/gold layers
 - [x] Glue ETL job
 - [x] Athena analytics
-- [ ] Lambda trigger
-- [ ] CloudWatch monitoring
+- [x] Lambda trigger
+- [x] CloudWatch monitoring
