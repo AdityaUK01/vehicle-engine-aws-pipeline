@@ -57,3 +57,4 @@ for name, query in queries.items():
     time.sleep(5)
 
 print("All gold tables created.")
+# This script creates three gold tables in Athena based on the cleaned data in the 'engines' table. Each query is executed sequentially, and the results are stored in separate S3 locations in Parquet format for efficient querying.
