@@ -53,3 +53,4 @@ df.write.mode("overwrite").parquet(OUTPUT_PATH)
 print("Written to silver/ as Parquet successfully.")
 
 job.commit()
+# This Glue ETL script reads the raw CSV data from the bronze layer, performs cleaning and transformation to ensure data quality, and then writes the cleaned data to the silver layer in Parquet format for efficient querying.
